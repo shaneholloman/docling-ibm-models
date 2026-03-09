@@ -1,3 +1,9 @@
+## [v3.12.0](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.12.0) - 2026-03-09
+
+### Feature
+
+* TableFormer v2 ([#149](https://github.com/docling-project/docling-ibm-models/issues/149)) ([`b99c955`](https://github.com/docling-project/docling-ibm-models/commit/b99c955aaf9f3e44d5845ee5a3df059f477fc864))
+
 ## [v3.11.0](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.11.0) - 2026-01-23
 
 ### Feature
