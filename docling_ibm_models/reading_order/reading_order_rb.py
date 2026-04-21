@@ -211,10 +211,11 @@ class ReadingOrderPredictor:
                         )
                     ):
                         m1 = re.fullmatch(
-                            r".+([a-z,\-])(\s*)", sorted_elements[check_ind].text
+                            r".+([a-z,\-\u00AD])(\s*)", sorted_elements[check_ind].text
                         )
                         m2 = re.fullmatch(
-                            r"(\s*[a-z])(.+)", sorted_elements[ind_p1].text
+                            r"(\s*[a-zA-Z\u00C0-\u024F])(.+)",
+                            sorted_elements[ind_p1].text,
                         )
 
                         if m1 and m2:
