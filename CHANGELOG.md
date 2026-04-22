@@ -1,3 +1,11 @@
+## [v3.13.1](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.13.1) - 2026-04-22
+
+### Fix
+
+* Load TableFormer model with torch.load(..., weights_only=True) ([#157](https://github.com/docling-project/docling-ibm-models/issues/157)) ([`3761073`](https://github.com/docling-project/docling-ibm-models/commit/376107329cad70d41189e37fea3d9352328e4f84))
+* Extend predict_merges patterns for soft hyphen and Unicode letters ([#155](https://github.com/docling-project/docling-ibm-models/issues/155)) ([`c5e0d0f`](https://github.com/docling-project/docling-ibm-models/commit/c5e0d0f6166f61048f57cd5faba9a0180c806b67))
+* Chain merge continuations instead of stopping after one pair ([#156](https://github.com/docling-project/docling-ibm-models/issues/156)) ([`d041ecc`](https://github.com/docling-project/docling-ibm-models/commit/d041ecc71161fa82c5f4893e31ff57d44ec6bf1b))
+
 ## [v3.13.0](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.13.0) - 2026-03-27
 
 ### Feature
