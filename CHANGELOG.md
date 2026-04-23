@@ -1,3 +1,9 @@
+## [v3.13.2](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.13.2) - 2026-04-23
+
+### Fix
+
+* Load code formula model with `weights_only=True` ([#158](https://github.com/docling-project/docling-ibm-models/issues/158)) ([`2ebbcad`](https://github.com/docling-project/docling-ibm-models/commit/2ebbcad084e5df031d1835638bf865b0a0af22c0))
+
 ## [v3.13.1](https://github.com/docling-project/docling-ibm-models/releases/tag/v3.13.1) - 2026-04-22
 
 ### Fix
